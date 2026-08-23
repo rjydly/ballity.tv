@@ -21,7 +21,7 @@ from moviepy import VideoFileClip, CompositeVideoClip, ImageClip, concatenate_vi
 
 # True per a fer proves (envia tot a Telegram sense publicar a Buffer).
 # Canvia a False per a posar-ho en producció.
-TEST_MODE = True
+TEST_MODE = False
 
 # Secrets i credencials
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
