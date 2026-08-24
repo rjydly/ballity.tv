@@ -2,8 +2,8 @@ name: Ballity Video Pipeline
 
 on:
   schedule:
-    # S'executa 10 cops al dia en hores punta dels EUA (08:00 AM a 11:00 PM EST / 12:00 a 03:00 UTC)
-    - cron: '0 1,3,12,14,15,17,18,20,21,23 * * *'
+    # S'executa 3 cops al dia (ex: 12:00, 18:00 i 22:00 UTC)
+    - cron: '0 12,18,22 * * *'
   workflow_dispatch:
 
 jobs:
